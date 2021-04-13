@@ -1,0 +1,7 @@
+int loop 3
+ip addr 3.3.3.3 255.255.255.255
+exit
+router ospf 1
+network 0.0.0.0 0.0.0.0 are 0
+distance 60
+default-information originate

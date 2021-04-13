@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7c52b6-dd11-459e-98fa-eeac23698a11" name="Default Changelist" comment="" />
+    <list default="true" id="ff7c52b6-dd11-459e-98fa-eeac23698a11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/1.netmiko_connect_and_run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/10.netmiko_scp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/11.netmiko_assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/2.netmiko_prompt_global_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/3.netmiko_run_multiple_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/4.netmiko_run_commands_from_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/5.netmiko_configure_multiple_devices_multiple_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/6.netmiko_backup_routers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/7.netmiko_without_multithreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/8.netmiko_with_multithreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/9.netmiko_troubleshoting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/devices.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/ospf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1r4micOnkD57Hc9JLsaR9t5Rik7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +55,16 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Paramiko_Original">
-    <configuration name="Paramiko_Original" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Py\Documents\GitHub\MyRepository\Network Automation\Netmiko" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.11.netmiko_assignment">
+    <configuration name="10.netmiko_scp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyRepository" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -36,11 +72,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Paramiko" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Netmiko" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Py\Documents\GitHub\MyRepository\Network Automation\Paramiko\Paramiko_Original.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Netmiko/10.netmiko_scp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11.netmiko_assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRepository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Netmiko/11.netmiko_assignment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.netmiko_without_multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRepository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Netmiko/7.netmiko_without_multithreading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8.netmiko_with_multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRepository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Netmiko/8.netmiko_with_multithreading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.netmiko_troubleshoting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRepository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Netmiko/9.netmiko_troubleshoting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Paramiko_Original" />
+        <item itemvalue="Python.11.netmiko_assignment" />
+        <item itemvalue="Python.10.netmiko_scp" />
+        <item itemvalue="Python.9.netmiko_troubleshoting" />
+        <item itemvalue="Python.8.netmiko_with_multithreading" />
+        <item itemvalue="Python.7.netmiko_without_multithreading" />
       </list>
     </recent_temporary>
   </component>
