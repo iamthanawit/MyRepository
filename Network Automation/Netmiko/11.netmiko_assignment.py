@@ -17,7 +17,7 @@ for ip in myfile:
 
     myconnection = ConnectHandler(**cisco_device)
     print('##### Connecting #####')
-    ###########################################################################
+    ##########################################################################
     mylist = []
     myoutput = myconnection.send_command('sh ip int br | ex unas ')
     myoutput_list = mylist.append(myoutput)
@@ -47,6 +47,6 @@ for ip in myfile:
 
 
 
-    ###########################################################################
+    ##########################################################################
     print('##### Closing connection #####')
     myconnection.disconnect()
