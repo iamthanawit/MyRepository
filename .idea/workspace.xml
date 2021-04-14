@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7c52b6-dd11-459e-98fa-eeac23698a11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/1.netmiko_connect_and_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/10.netmiko_scp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/11.netmiko_assignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/2.netmiko_prompt_global_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/3.netmiko_run_multiple_commands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/4.netmiko_run_commands_from_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/5.netmiko_configure_multiple_devices_multiple_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/6.netmiko_backup_routers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/7.netmiko_without_multithreading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/8.netmiko_with_multithreading.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/9.netmiko_troubleshoting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/CiscoRouter3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/devices.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Automation/Netmiko/ospf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff7c52b6-dd11-459e-98fa-eeac23698a11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +37,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Network Automation/Netmiko" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
