@@ -20,5 +20,6 @@ myoutput = myconnection.send_command('sh ip int br')
 print(myoutput)
 
 ###########################################################################
+
 print('##### closing connection #####')
 myconnection.disconnect()
