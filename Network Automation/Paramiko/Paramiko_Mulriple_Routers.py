@@ -1,6 +1,6 @@
 import paramiko
 import time
-### Open SSH Connection ###
+
 ssh_client = paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
@@ -11,10 +11,13 @@ router3 = {'hostname': '172.16.215.213', 'port': '22', 'username': 'root', 'pass
 routers = [router1, router2, router3]
 
 for router in routers:
+    ### Open SSH Connection ###
+
     print(f'Connecting to {router["hostname"]}')
     ssh_client.connect(**router, look_for_keys=False, allow_agent=False)
     shell = ssh_client.invoke_shell()
 
+    ################ Sending commands to targeted devices ################
     shell.send(b'enable\n')
     shell.send(b'cisco\n')
     shell.send(b'conf t\n')
@@ -27,9 +30,9 @@ for router in routers:
 
     output = shell.recv(10000).decode('utf-8')
     print(output)
+    ################ Sending commands to targeted devices ################
 
-### Sending commands to targeted devices ###
-
+    ### Close SSH Connection ###
     if ssh_client.get_transport().is_active() == True: # If the session is still active, then closing the connection!
         print('Closing connection')
         ssh_client.close()
