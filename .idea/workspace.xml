@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39275d0-e567-4f72-9b2d-cd128beb4363" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NetworkAutomation/Playground/myParamiko_PILOT-Fortigate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkAutomation/Playground/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkAutomation/Playground/myParamiko_Backup_Multiple_Devices.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkAutomation/Playground/myParamiko_PILOT-Fortigate.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkAutomation/Playground/myParamiko_PILOT-Fortigate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="C:\Users\ochanthet\Documents\GitHub\MyRepository\Network Automation\Data Serialization and Deserialization" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.myParamiko_PILOT-Fortigate (1)">
+  <component name="RunManager" selected="Python.test">
     <configuration name="myParamiko_Backup_Multiple_Devices (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyRepository" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,27 +91,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NetworkAutomation/Playground/myParamiko_Backup_Multiple_Devices.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="myParamiko_Backup_Multiple_Devices" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyRepository" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Network Automation/Paramiko" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network Automation/Paramiko/myParamiko_Backup_Multiple_Devices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,13 +141,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyRepository" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NetworkAutomation/Playground" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NetworkAutomation/Playground/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.myParamiko_PILOT-Fortigate (1)" />
         <item itemvalue="Python.myParamiko_PILOT-Fortigate" />
         <item itemvalue="Python.myParamiko_Backup_Multiple_Devices (2)" />
         <item itemvalue="Python.myParamiko_Backup_Multiple_Devices (1)" />
-        <item itemvalue="Python.myParamiko_Backup_Multiple_Devices" />
       </list>
     </recent_temporary>
   </component>
